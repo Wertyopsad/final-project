@@ -1,0 +1,39 @@
+.picture{
+    text-align: center;
+}
+
+.page-icon li{
+    display: inline;
+    color:red;
+    text-align: center;
+    color: green;
+    /* border: 1px solid #ddd; */
+}
+.page-icon li a{
+    text-align: center;
+    color:black;
+    float: left;
+    padding: 22px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.page-icon li a.active{
+    background-color: #4CAF50;
+    color:white;
+}
+.page-icon li a:hover:not(.active) {background-color: #4CAF50;}
+#search{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#searchButton{
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+.image-container {
+    /* display: flex; */
+    text-align: center;
+    /* margin-bottom: 20px; */
+  }
